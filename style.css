@@ -97,7 +97,8 @@ ul {
 .imgtiles {
     display: flex;
     text-align: center;
-    gap: 32px;
+    gap: 5vw;
+    inline-size: min-content;
 }
 
 .quote {
@@ -121,7 +122,7 @@ ul {
 }
 
 .calltoaction {
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #3882F6;
     color: white;
     margin: 5%;
